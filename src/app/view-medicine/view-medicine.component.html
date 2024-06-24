@@ -1,0 +1,30 @@
+<nav style="margin:auto" class="navbar navbar-expand-lg bg-dark">
+        
+    <a style="color: white;" class="navbar-brand" href="#">SIDDHINATH HOSPITALS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <a style="color: white;"class="nav-link active" aria-current="page" href="javascript:void(0);" routerLink="/medicine">Back</a>
+          </li>
+       
+      </ul>
+      
+    </div>
+  
+  </nav>
+  <hr>
+  <h2 style="text-align: center;margin-top: 20PX;">Medicine Detail</h2>
+  <a style="color: rgb(86, 86, 86); font-size: x-large;"><marquee behavior="scroll" direction="left">
+    Welcome to Admin Dashboard. Please find the patient list below!!. Click Appointments to view and update Appointments, Click Add Appointment to add new Appointment</marquee></a>
+<hr>
+<!-- <input type="text" name="search" [(ngModel)]="searchText" placeholder="Search" (input)="searchPatients()">  -->
+<br>
+  <a style="color: rgb(86, 86, 86); font-size: xx-large;">Current Medicine Detail</a>
+<div class="container">
+    <label>Drugname:<b>{{medicine.drugname}}</b></label><br>
+    <label>Stock:<b>{{medicine.stock}}</b></label><br>
+
+</div>
